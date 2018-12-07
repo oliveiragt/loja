@@ -1,0 +1,28 @@
+MANDAR TODAS AS TELAS DE CADA PASSO, DANDO ERRO OU NÃO
+1º Teste
+-Ir na opção estoque
+-Digitar no campo 4
+-Digitar número 2 no campo acima do botão "Retirar"
+-Clique no botão Retirar
+-Confirme a retirada
+(CASO JÁ TENHA FEITO ESSE TESTE, DESCONSIDERE)
+2º Teste
+-Ir na opção estoque
+-Busca por nome
+-Digitar M no campo
+(CASO JÁ TENHA FEITO ESSE TESTE, DESCONSIDERE)
+3º Teste
+-Ir na opção Cadastro de produtos
+-Digitar nos campos, apenas respeitando que quantidade,numero de referencia e preço devem ser numeros
+-Cadastrar o produto
+(CASO JÁ TENHA FEITO ESSE TESTE, DESCONSIDERE)
+4º Teste
+-Ir na opção Operações realizadas
+-Ir em Lista de produtos cadastrados
+(CASO JÁ TENHA FEITO ESSE TESTE, DESCONSIDERE)
+5º Teste
+-Ir na opção Cadastro de funcionários
+-Digitar nos campos, respeitando apenas que a senha sejam números
+(CASO JÁ TENHA FEITO ESSE TESTE, DESCONSIDERE)
+
+

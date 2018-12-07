@@ -1,0 +1,24 @@
+<?php 
+  session_start();
+  include('conexao.php');
+  $usu=$_SESSION['usuario'];
+  $nome=$_POST['nomeprod'];
+  $marca=$_POST['marca'];    
+  $modelo=$_POST['modelo'];
+  $nr=$_POST['nrref'];
+  $preco=$_POST['precounitario'];
+  $qtd=$_POST['quantidade'];
+  $img=$_POST['link'];
+  if($_SESSION['cargo']=="admin"){
+  $query ="INSERT INTO `produtos` (nomeprod,marcaprod,modeloprod,nrreferencia,preco,cadpor,quantidade,linkimg) VALUES ('".$nome."','".$marca."','".$modelo."','".$nr."','".$preco."','".$usu."','".$qtd."','".$img."')";
+$insere=mysql_query($query);
+   if($insere){
+	  header('location:sucesso.php');
+  }
+  else{
+	  header('location:falha.php');
+  }}
+  else{
+	   header('location:ilegal.php');
+  }
+?>
